@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: vollkorn;
+  src: url(Vollkorn-Bold.ttf);
+}
+
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  width: 85%;
+  height: 160px;
+}
+
+.greeting{
+  font-size: 40px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+.trans{
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0);
+  font-family: vollkorn;
+  text-align: center;
+
+}
+
+.customInput {
+  width:200px;
+  height:30px;
+  border: 3px solid white;
+  border-radius: 7.5px;
+  padding: 5px;
+  background-color: #ffffff3a;
+  font-size: 20px;
+  outline:none;
+  color:white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+.customButton {
+  width:350px;
+  height:100px;
+  background-color: #ffffff3a;
+  border: 7px solid white;
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 58px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.6s;
+  outline: none;
+}
+
+.custom2Button {
+  width:100px;
+  height:30px;
+  background-color: #ffffff3a;
+  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  font-weight:bold;
+  border-radius: 5px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.6s;
+  outline: none;
+}
